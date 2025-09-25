@@ -3,6 +3,8 @@
 To use the program, you can edit the base_url to any subreddit that you want to analyse. The endpoint ./json
 is necessary to ensure that the program will read in the JSON form for easier data access.
 
+You must have the requests package to use this program.
+
 To change the page range, you can change the for i in range to any number of page you like.
 
 To run the program, simply run python redditscrapper.py.
