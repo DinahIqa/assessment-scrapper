@@ -34,6 +34,6 @@ for i in range(10):
     time.sleep(2)
 
 with open("redditdata.json", "w", encoding="utf-8") as f:
-    json.dump(image_post, f, indent=2)
+    json.dump(image_post, f, indent=2, ensure_ascii=False)
 
 
